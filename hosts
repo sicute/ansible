@@ -1,0 +1,7 @@
+[inhouse]
+memath  ansible_ssh_host=ipaddress ansible_ssh_port=7022 ansible_ssh_user=ubuntu
+[aws_ecs_node]
+ec2_node ansible_ssh_host=ipaddress ansible_ssh_user=coinone
+
+[aws_ecs_node:vars]
+ansible_python_interpreter=/usr/bin/python3
